@@ -19,7 +19,7 @@ pipeline{
                     steps{
                         sh ' echo "building artifacts from develop branc" '
                         sh 'echo "deploying code from develop branhc" '
-                        echo "Weldone Engineer Bolatito Adesina"
+                     
                     }
                 }
         
