@@ -9,6 +9,7 @@ pipeline{
                     sh ' echo "building Artifact from main" '
                     echo " Deploying code from main branch"
                     echo " this is done by Bolatito"
+                    echo " my first pull request to demo this project"
                 }
             }
                 stage ('develop branch delpoy code'){
