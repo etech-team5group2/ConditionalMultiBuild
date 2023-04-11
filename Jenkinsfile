@@ -1,9 +1,9 @@
 pipeline{
     agent any
         stages{
-            stage('1-Main Branch deploy Code'){
+            stage('1-Feature Branch deploy Code'){
                 when {
-                    branch 'main'
+                    branch 'feature'
                 }
                 steps{
                     sh ' echo "building Artifact from main" '
@@ -19,7 +19,7 @@ pipeline{
                     steps{
                         sh ' echo "building artifacts from develop branc" '
                         sh 'echo "deploying code from develop branhc" '
-                        echo "Weldone Engineer Bolatito Adesina"
+                     
                     }
                 }
         
