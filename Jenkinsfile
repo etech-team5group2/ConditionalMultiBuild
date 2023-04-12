@@ -10,6 +10,7 @@ pipeline{
                     echo " Deploying code from main branch"
                     echo " this is done by Bolatito"
                     echo " my first pull request to demo this project"
+                    echo "final stage of the projecet"
                 }
             }
                 stage ('develop branch delpoy code'){
